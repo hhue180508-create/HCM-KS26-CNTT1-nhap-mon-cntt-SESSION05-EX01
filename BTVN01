@@ -1,0 +1,16 @@
+phần1:
+các lỗi sai của nam :
+-mkdir Smart Farm Project 
+sai vì đường chuyền quá nhiều đối số vì PowerShell chỉ nhận một đối số nên khi chạy lệch sẽ tạo thành 3 folder
+sửa: mkdir Smart_Farm_Project
+-cd Smart Farm Project
+sai vì máy không nhận diện được đối số vì PowerShell chỉ nhận một đối số trong một đường chuyền
+ sửa: cd Smart_Farm_Project
+-mkdir src/sensors/temperature
+sai vì viết sai dấu , trong PowerShell không dùng "/" mà dùng "\"
+sửa: mkdir src\sensors\temperature
+phần2:
+mkdir Smart_Farm_Project
+ cd Smart_Farm_Project
+  mkdir src\sensors\temperature
+
